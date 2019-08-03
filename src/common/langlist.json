@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "text": "自动检测语言",
+        "from": "auto",
+        "to": "auto"
+    },
+    {
+        "id": 1,
+        "text": "英汉互译",
+        "from": "zh-CHS",
+        "to": "en"
+    },
+    {
+        "id": 2,
+        "text": "法汉互译",
+        "from": "zh-CHS",
+        "to": "fr"
+    },
+    {
+        "id": 3,
+        "text": "韩汉互译",
+        "from": "zh-CHS",
+        "to": "ko"
+    },
+    {
+        "id": 4,
+        "text": "日汉互译",
+        "from": "zh-CHS",
+        "to": "ja"
+    },
+    {
+        "id": 5,
+        "text": "德汉互译",
+        "from": "zh-CHS",
+        "to": "de"
+    },
+    {
+        "id": 6,
+        "text": "俄汉互译",
+        "from": "zh-CHS",
+        "to": "ru"
+    },
+    {
+        "id": 7,
+        "text": "葡汉互译",
+        "from": "zh-CHS",
+        "to": "pt"
+    },
+    {
+        "id": 8,
+        "text": "西汉互译",
+        "from": "zh-CHS",
+        "to": "es"
+    }
+]
