@@ -91,7 +91,6 @@
       </div>
       <div class="advertising" v-show="status===0">
         <div>翻译来自网易有道API，感谢<a href="https://ai.youdao.com/" target="_blank">有道智云</a></div>
-        <div>变量来自CodeLf项目，感谢<a href="https://unbug.github.io/codelf/" target="_blank">CodeLf</a></div>
       </div>
     </div>
   </div>
