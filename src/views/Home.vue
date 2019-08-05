@@ -4,10 +4,10 @@
       <div class="left">
         <div class="logo">
           <img src="@/assets/youdao.jpg" alt="">
-          <h1>网易有道词典</h1>
+          <h1>有道个人版</h1>
         </div>
         <div class="nav">
-          <router-link tag="div" to="/" class="item item1">
+          <router-link tag="div" to="/" class="item item1" :class="{'router-link-exact-active':$route.path == '/'}">
             <div class="icon"></div>
             <div class="title">词典</div>
           </router-link>
@@ -15,7 +15,7 @@
             <div class="icon"></div>
             <div class="title">历史记录</div>
           </router-link>
-          <router-link tag="div" to="/collect" class="item item2">
+          <router-link tag="div" to="/collect" class="item item4">
             <div class="icon"></div>
             <div class="title">收藏</div>
           </router-link>
@@ -123,6 +123,35 @@
                 }
               }
             }
+            &.item4 {
+              .icon {
+                background-image: url('../assets/start1.png');
+              }
+
+              .title {
+                color: @auxiliaryColor;
+              }
+
+              &.router-link-exact-active {
+                .icon {
+                  background-image: url('../assets/start.png');
+                }
+
+                .title {
+                  color: @mianColor;
+                }
+              }
+
+              &:hover {
+                .icon {
+                  background-image: url('../assets/start.png');
+                }
+
+                .title {
+                  color: @mianColor;
+                }
+              }
+            }
 
             &.item1 {
               .icon {
@@ -161,6 +190,33 @@
               cursor: pointer;
               &:hover .title{
                 text-decoration: underline;
+              }
+              .icon {
+                background-image: url('../assets/github.png');
+              }
+
+              .title {
+                color: @auxiliaryColor;
+              }
+
+              &.router-link-exact-active {
+                .icon {
+                  background-image: url('../assets/github1.png');
+                }
+
+                .title {
+                  color: @mianColor;
+                }
+              }
+
+              &:hover {
+                .icon {
+                  background-image: url('../assets/github1.png');
+                }
+
+                .title {
+                  color: @mianColor;
+                }
               }
             }
 

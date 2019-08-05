@@ -8,8 +8,6 @@
   *{
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    
   }
   h1{
     font-weight: normal;
