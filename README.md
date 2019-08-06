@@ -3,10 +3,21 @@
 
 ## 项目图片
 
-![首页](https://doc.lihuiwang.net/img/index.png)
-![历史记录页](https://doc.lihuiwang.net/img/log.png)
-![收藏页](https://doc.lihuiwang.net/img/sc.png)
-
+<table>
+      <tbody>
+        <tr>
+          <td align="center" valign="middle">
+              <img width="300" src="https://doc.lihuiwang.net/img/index.png">
+          </td>
+          <td align="center" valign="middle">
+              <img width="300" src="https://doc.lihuiwang.net/img/log.png">
+          </td>
+            <td align="center" valign="middle">
+              <img width="300" src="https://doc.lihuiwang.net/img/sc.pgn">
+          </td>
+        </tr>
+      </tbody>
+</table>
 ## 开发过程
 ```
 使用vue-cli构建vue项目，添加vue-cli-plugin-electron-builder插件进行开发和打包
