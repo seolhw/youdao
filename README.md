@@ -3,9 +3,9 @@
 
 ## 项目图片
 
-![首页]('https://doc.lihuiwang.net/img/index.png')
-![历史记录页]('https://doc.lihuiwang.net/img/log.png')
-![收藏页]('https://doc.lihuiwang.net/img/sc.png')
+![首页](https://doc.lihuiwang.net/img/index.png)
+![历史记录页](https://doc.lihuiwang.net/img/log.png)
+![收藏页](https://doc.lihuiwang.net/img/sc.png)
 
 ## 开发过程
 ```
