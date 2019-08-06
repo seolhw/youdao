@@ -1,29 +1,31 @@
-# youdaoelectron
+# 有道简易版
+> 使用Electron、Vue，开发的有道翻译简易版，实现了有道翻译的基本功能，如翻译、发音、历史记录、收藏等功能！
 
-## Project setup
-```
-yarn install
-```
+## 项目图片
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+![首页]('https://doc.lihuiwang.net/img/index.png')
+![历史记录页]('https://doc.lihuiwang.net/img/log.png')
+![收藏页]('https://doc.lihuiwang.net/img/sc.png')
 
-### Compiles and minifies for production
+## 开发过程
 ```
-yarn run build
+使用vue-cli构建vue项目，添加vue-cli-plugin-electron-builder插件进行开发和打包
 ```
 
-### Run your tests
+## 体验项目
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+选择releases中最新版本下载exe文件，暂不支持mac
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## clone项目
+
+### 开发
+
+```
+yarn run electron:serve
+```
+### 打包
+
+```
+yarn run electron:build
+```
