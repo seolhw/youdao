@@ -3,7 +3,7 @@ import http from './axios'
 import { UUID,getInput } from '@/common/common'
 
 const sha256 = require('js-sha256')
-const URL_DOMAIM = 'http://localhost:8080' // url域名前缀，wepack进行跨域
+const URL_DOMAIM = 'https://openapi.youdao.com' // url域名前缀，wepack进行跨域
 const API_ID = '7a65f497b7bd4d86' // 应用ID
 const API_KEY = '7EecLcp9gmVe3sfHHP8hW352ktGZAru0' // 应用秘钥
 export default {

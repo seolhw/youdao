@@ -189,6 +189,7 @@ export default {
       }
       http.getYoudao(data)
       .then(res=>{
+        console.log(res)
         if(res.errorCode==0){ // 翻译成功
           this.setLocalStorage(res.query,res.translation[0])
           this.translation = res.translation
@@ -247,8 +248,9 @@ export default {
   },
 }
 </script>
-<style lang="less">
+<style lang="less" scoped>
 .main{
+  -webkit-app-region: no-drag;
   position: relative;
   margin-top: 30px;
   .language-markup{
@@ -337,6 +339,7 @@ export default {
         height: 46px;
         padding-bottom: 10px;
         padding-right: 100px;
+        overflow: hidden;
       }
       &.sentenceinput{
         height: 180px;

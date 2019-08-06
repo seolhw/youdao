@@ -8,16 +8,17 @@
   *{
     margin: 0;
     padding: 0;
+    font-family: 'pingFang';
   }
   h1{
     font-weight: normal;
   }
-  /*
+  
   @font-face {
     font-family: 'pingFang';
     src: url('./assets/pingfangti.ttf');
     font-weight: normal;
     font-style: normal;
   }
-  */
+ 
 </style>

@@ -13,13 +13,13 @@ module.exports = {
       warnings: true,
       errors: true
     },
-    proxy: {
-      '/api': {
-        target: 'https://openapi.youdao.com',
-        secure: false,
-        changeOrigin: true,
-      }
-    }
+    // proxy: {
+    //   '/api': {
+    //     target: 'https://openapi.youdao.com',
+    //     secure: false,
+    //     changeOrigin: true,
+    //   }
+    // }
   },
   lintOnSave: false
 }

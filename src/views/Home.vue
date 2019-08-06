@@ -31,9 +31,9 @@
 
           </div>
           <div class="right">
-            <div class="item1" title="最小化"></div>
-            <div class="item2" title="最大化"></div>
-            <div class="item3" title="关闭"></div>
+            <div class="item1" title="最小化" @click="minimize"></div>
+            <div class="item2" title="最大化" @click="maximize"></div>
+            <div class="item3" title="关闭" @click="close"></div>
           </div>
         </div>
         <router-view></router-view>
@@ -42,6 +42,7 @@
   </div>
 </template>
 <script>
+  
   export default {
     data() {
       return {
@@ -50,16 +51,28 @@
     },
     methods: {
       toGithub(){
-        window.open('https://github.com/seolhw')
+        this.$shell.openExternal('https://github.com/seolhw/youdao')
+      },
+      maximize(){
+        if(this.$win.isMaximized()){
+          this.$win.unmaximize()
+        }else{
+          this.$win.maximize()
+        }
+      },
+      minimize(){
+        this.$win.minimize()
+      },
+      close(){
+        this.$win.close()
       }
     },
   }
 </script>
 <style lang="less" scoped>
   .page {
-    width: 820px;
-    height: 600px;
-    margin: 100px auto;
+    width: 100vw;
+    height: 100vh;
     box-shadow: 0px 0px 15px #c9c9c9;
     .main {
       display: flex;
@@ -89,6 +102,7 @@
         .nav {
           padding-top: 25px;
           >div {
+            -webkit-app-region: no-drag;
             display: flex;
             align-items: center;
             cursor: default;
@@ -247,17 +261,18 @@
           display: flex;
           justify-content: space-between;
 
-          // >.left {}
+          // >.left {
+          // }
 
           >.right {
             display: flex;
-
+            
             >div {
               width: 18px;
               height: 18px;
               background-size: 100% 100%;
               margin: 0 8px;
-
+              -webkit-app-region: no-drag;
               &.item1 {
                 background-image: url('../assets/c3.png');
 

@@ -54,7 +54,7 @@ import { getDateDiff } from '@/common/common'
     },
   }
 </script>
-<style lang="less">
+<style lang="less" scoped>
 .mian{
   position: relative;
   .top{
@@ -69,6 +69,7 @@ import { getDateDiff } from '@/common/common'
       max-height: 520px;
       overflow-y: auto;
       .item{
+        -webkit-app-region: no-drag;
         padding: 10px;
         display: flex;
         cursor: default;
