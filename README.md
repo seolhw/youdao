@@ -13,7 +13,7 @@
               <img width="300" src="https://doc.lihuiwang.net/img/log.png">
           </td>
             <td align="center" valign="middle">
-              <img width="300" src="https://doc.lihuiwang.net/img/sc.pgn">
+              <img width="300" src="https://doc.lihuiwang.net/img/sc.png">
           </td>
         </tr>
       </tbody>
