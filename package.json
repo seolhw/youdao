@@ -16,7 +16,7 @@
   "description": "有道词典个人版，主要包括中外互译，发音，历史记录，收藏等功能，代码开源在github上",
   "main": "background.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "js-sha256": "^0.9.0",
     "vue": "^2.6.10",
